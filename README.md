@@ -13,43 +13,52 @@ Ouvrez l'application [DroidCafeOptions](https://github.com/khammami/android-fund
 
 ## Répondre à ces questions
 
-### **Question 1**
+Répondons aux questions posées dans le README :
 
-Quel est le nom du fichier dans lequel vous créez des éléments de menu d'options? Choisissez-en un:
+### Question 1
+**Quel est le nom du fichier dans lequel vous créez des éléments de menu d'options?**
 
+Choisissez-en un:
 - [ ] menu.java
 - [ ] menu_main.xml
 - [ ] activity_main.xml
-- [ ] content_main.xml
+- [x] content_main.xml
 
-### **Question 2**
+**Réponse:** Le fichier dans lequel vous créez des éléments de menu d'options est généralement `content_main.xml`.
 
-Quelle méthode est appelée quand un élément du menu d'options est cliqué? Choisissez-en un:
+### Question 2
+**Quelle méthode est appelée quand un élément du menu d'options est cliqué?**
 
-- [ ] `onOptionsItemSelected(MenuItem item)`
+Choisissez-en un:
+- [x] `onOptionsItemSelected(MenuItem item)`
 - [ ] `onClick(View view)`
 - [ ] `onContextItemSelected()`
 - [ ] `onClickShowAlert()`
 
-### **Question 3**
+**Réponse:** La méthode qui est appelée quand un élément du menu d'options est cliqué est `onOptionsItemSelected(MenuItem item)`.
 
-Lequel des énoncés suivants définit le titre d'un dialogue d'alerte? Choisissez-en un:
+### Question 3
+**Lequel des énoncés suivants définit le titre d'un dialogue d'alerte?**
 
+Choisissez-en un:
 - [ ] `myAlertBuilder.setMessage("Alert");`
 - [ ] `myAlertBuilder.setPositiveButton("Alert");`
-- [ ] `myAlertBuilder.setTitle("Alert");`
+- [x] `myAlertBuilder.setTitle("Alert");`
 - [ ] `AlertDialog.Builder myAlertBuilder = new AlertDialog.Builder("Alert");`
 
-### **Question 4**
+**Réponse:** Pour définir le titre d'un dialogue d'alerte, vous utilisez la méthode `setTitle("Alert")`.
 
-Où créez-vous un `DialogFragment` pour un sélecteur de date? Choisissez-en un:
+### Question 4
+**Où créez-vous un `DialogFragment` pour un sélecteur de date?**
 
+Choisissez-en un:
 - [ ] Dans la méthode `onCreate()` de l'activité d'hébergement.
 - [ ] Dans la méthode `onCreateContextMenu()` dans `Fragment`.
 - [ ] Dans la méthode `onCreateView()` de l'extension `DialogFragment`.
-- [ ] Dans la méthode `onCreateDialog()` dans l'extension de `DialogFragment`.
+- [x] Dans la méthode `onCreateDialog()` dans l'extension de `DialogFragment`.
 
-## Soumettez votre application pour la notation
+**Réponse:** Vous créez un `DialogFragment` pour un sélecteur de date dans la méthode `onCreateDialog()` dans l'extension de `DialogFragment`.
+
 
 Vérifiez que l'application présente les fonctionnalités suivantes:
 
