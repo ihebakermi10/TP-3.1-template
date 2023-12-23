@@ -20,13 +20,13 @@ Quel est le nom du fichier dans lequel vous créez des éléments de menu d'opti
 - [ ] menu.java
 - [ ] menu_main.xml
 - [ ] activity_main.xml
-- [ ] content_main.xml
+- [x] content_main.xml
 
 ### **Question 2**
 
 Quelle méthode est appelée quand un élément du menu d'options est cliqué? Choisissez-en un:
 
-- [ ] `onOptionsItemSelected(MenuItem item)`
+- [x] `onOptionsItemSelected(MenuItem item)`
 - [ ] `onClick(View view)`
 - [ ] `onContextItemSelected()`
 - [ ] `onClickShowAlert()`
@@ -37,7 +37,7 @@ Lequel des énoncés suivants définit le titre d'un dialogue d'alerte? Choisiss
 
 - [ ] `myAlertBuilder.setMessage("Alert");`
 - [ ] `myAlertBuilder.setPositiveButton("Alert");`
-- [ ] `myAlertBuilder.setTitle("Alert");`
+- [x] `myAlertBuilder.setTitle("Alert");`
 - [ ] `AlertDialog.Builder myAlertBuilder = new AlertDialog.Builder("Alert");`
 
 ### **Question 4**
@@ -47,7 +47,7 @@ Où créez-vous un `DialogFragment` pour un sélecteur de date? Choisissez-en un
 - [ ] Dans la méthode `onCreate()` de l'activité d'hébergement.
 - [ ] Dans la méthode `onCreateContextMenu()` dans `Fragment`.
 - [ ] Dans la méthode `onCreateView()` de l'extension `DialogFragment`.
-- [ ] Dans la méthode `onCreateDialog()` dans l'extension de `DialogFragment`.
+- [x] Dans la méthode `onCreateDialog()` dans l'extension de `DialogFragment`.
 
 ## Soumettez votre application pour la notation
 
